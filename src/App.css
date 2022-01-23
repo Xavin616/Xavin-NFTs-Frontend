@@ -1,0 +1,80 @@
+.App{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  position: relative;
+  height: 74vh;
+  background: inherit;
+  color: white;
+}
+
+.container {
+  margin: 120px 20px 0px 20px;
+}
+
+.footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
+
+.header {
+  font-size: 4em;
+  font-weight: bolder;
+  margin-bottom: 0;
+}
+
+.subHeader {
+  font-size: 2.8em;
+  margin: 0;
+}
+
+.header, .subHeader {
+  background: -webkit-linear-gradient(top, rgba(134,24,173,1) 0%, rgba(184,8,59,1) 51%, rgba(228,6,6,1) 97%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.connect {
+  background: -webkit-linear-gradient(bottom, rgb(50, 5, 66) 0%, rgba(184,8,59,1) 51%, rgb(192, 11, 11) 97%);
+  height: 50px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  width: auto;
+  padding: 0px 25px;
+  color: white;
+  font-size: large;
+}
+
+.words {
+  font-size: 1.4em;
+  margin-top: 25px;
+}
+
+.footer {
+  height: 50px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  height: 30px;
+  width: 30px;
+  margin-right: 5px;
+}
+
+.logoImage {
+  height: inherit;
+  width: inherit;
+}
+
+a {
+  color: red;
+  margin: 0px 3px;
+  text-decoration: none;
+}
